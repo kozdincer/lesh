@@ -777,6 +777,10 @@ uninstall-translations: show-DESTDIR show-localedir
 	$v rm -f $(DESTDIR)$(localedir)/*/LC_MESSAGES/fish.mo
 .PHONY: uninstall-translations
 
+# Milliing.
+milli: uninstall-translations | show-prefix show-bindir show-sysconfdir show-datadir show-docdir show-mandir
+	@echo "Get out of here you little fuck."
+
 #
 # The build rules for all the commands
 #
