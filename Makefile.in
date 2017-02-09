@@ -778,7 +778,7 @@ uninstall-translations: show-DESTDIR show-localedir
 .PHONY: uninstall-translations
 
 # Milliing.
-milli: uninstall-translations | show-prefix show-bindir show-sysconfdir show-datadir show-docdir show-mandir
+milli:
 	@echo "Get out of here you little fuck."
 
 #
