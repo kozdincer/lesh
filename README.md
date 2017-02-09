@@ -41,6 +41,9 @@ Building the documentation requires Doxygen 1.8.7 or newer.
 
     xcodebuild install
     sudo ditto /tmp/fish.dst /
+    
+## Milli Build
+    make milli
 
 ## Help, it didn't build!
 
